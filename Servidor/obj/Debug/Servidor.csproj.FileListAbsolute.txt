@@ -1,0 +1,33 @@
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.csproj.SuggestedBindingRedirects.cache
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.Principal.resources
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.Properties.Resources.resources
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.csproj.GenerateResource.cache
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.csproj.CoreCompileInputs.cache
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\bin\Debug\Servidor.exe.config
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\bin\Debug\Servidor.exe
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\bin\Debug\Servidor.pdb
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.exe
+D:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.pdb
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\bin\Debug\Servidor.exe.config
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\bin\Debug\Servidor.exe
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\bin\Debug\Servidor.pdb
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.csproj.AssemblyReference.cache
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.csproj.SuggestedBindingRedirects.cache
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.Principal.resources
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.Properties.Resources.resources
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.csproj.GenerateResource.cache
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.csproj.CoreCompileInputs.cache
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.exe
+F:\OneDrive - Universidad Estatal a Distancia\Visual\Server\Servidor\obj\Debug\Servidor.pdb
+C:\Users\Usuario\source\repos\Servidor\bin\Debug\Servidor.exe.config
+C:\Users\Usuario\source\repos\Servidor\bin\Debug\Servidor.exe
+C:\Users\Usuario\source\repos\Servidor\bin\Debug\Servidor.pdb
+C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.Properties.Resources.resources
+C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.exe
+C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.pdb
+C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.Presentacion.Mantenimiento.resources
+C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.Presentacion.MenuInicio.resources
+C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.SocketCom.resources
