@@ -7,23 +7,26 @@ using System.Windows.Forms;
 
 namespace Servidor.Logica
 {
-    internal class Cls_mensaje
+    public class Cls_mensaje
     {
+        #region Methods
+
         public int Salir()
         {
-            return alerta("¿Desea cerrar la aplicación?", "Cerrar");
+            return Alerta("¿Desea cerrar la aplicación?", "Cerrar");
         }
 
         public int Grabar()
         {
-            return alerta("¿Desea grabar este registro?", "Grabar");
+            return Alerta("¿Desea grabar este registro?", "Grabar");
         }
 
         public int Eliminar()
         {
-            return alerta("¿Desea Eliminar este registro?", "Eliminar");
+            return Alerta("¿Desea Eliminar este registro?", "Eliminar");
         }
-        private int alerta(string pregunta, String titulo)
+
+        private int Alerta(string pregunta, String titulo)
         {
             DialogResult result = MessageBox.Show(pregunta, titulo, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
             switch (result)
@@ -39,9 +42,11 @@ namespace Servidor.Logica
             return 0;
         }
 
-        public void mensaje(string texto) 
-        { 
+        public void mensaje(string texto)
+        {
             MessageBox.Show(texto, "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
+        #endregion
     }
 }

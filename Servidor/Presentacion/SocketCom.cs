@@ -14,11 +14,12 @@ using Servidor.Presentacion;
 using Servidor.Logica;
 using System.Net.Http.Headers;
 
-
 namespace Servidor
 {
     public partial class SocketCom : Form
     {
+        public SocketCom() => InitializeComponent();
+
         #region Atributos
         static Cla_Persona[] Array_Persona = new Cla_Persona[20];
         Cls_mensaje Obj_Util = new Cls_mensaje();
@@ -30,10 +31,6 @@ namespace Servidor
         private int clientesConectados;
         private bool listening;
         #endregion
-        public SocketCom()
-        {
-            InitializeComponent();
-        }
 
         #region Eventos
         private void Principal_Load(object sender, EventArgs e)
@@ -150,10 +147,10 @@ namespace Servidor
         public string Validar_Peticion(string Peticion)
         {
             int Indice_APersona = -1;
-            
+
             for (int i = 1; i < Peticion.Trim().Length; i++)
             {
-                System.Console.Write("Posición: {0} Letra {1}", i, Peticion.Substring(i-1, 1));
+                System.Console.Write("Posición: {0} Letra {1}", i, Peticion.Substring(i - 1, 1));
             }
             try
             {
@@ -186,7 +183,7 @@ namespace Servidor
                 }
 
             }
-            catch 
+            catch
             {
                 return "4Formato invalido";
             }
@@ -225,4 +222,3 @@ namespace Servidor
         #endregion
     }
 }
-        

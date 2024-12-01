@@ -83,7 +83,7 @@
     <Compile Include="Presentacion\SocketCom.Designer.cs">
       <DependentUpon>SocketCom.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Presentacion\Mantenimiento.resx">
       <DependentUpon>Mantenimiento.cs</DependentUpon>

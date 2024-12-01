@@ -9,43 +9,51 @@ using System.Threading.Tasks;
 
 namespace Servidor
 {
-    internal class Cla_Servidor
+    public class Cla_Servidor
     {
         #region Atributos
+
         private TcpListener tcpListener;
         private Thread listenThread;
+
         #endregion
 
         #region Metodos
+
         public void ServidorTcp()
         {
-            this.tcpListener = new TcpListener(IPAddress.Any, 30000);
-            this.listenThread = new Thread(new ThreadStart(ListenForClients));
-            this.listenThread.Start();
+            tcpListener = new TcpListener(IPAddress.Any, 30000);
+            listenThread = new Thread(new ThreadStart(ListenForClients));
+            listenThread.Start();
         }
+
         private void ListenForClients()
         {
-            this.tcpListener.Start();
+            tcpListener.Start();
             while (true)
             {
                 //blocks until a client has connected to the server
-                TcpClient client = this.tcpListener.AcceptTcpClient();
+                TcpClient client = tcpListener.AcceptTcpClient();
                 //create a thread to handle communication
                 //with connected client
-                Thread clientThread = new Thread(new ParameterizedThreadStart(HandleClientComm));
+                var clientThread = new Thread(new ParameterizedThreadStart(HandleClientComm));
                 clientThread.Start(client);
             }
         }
+
         private void HandleClientComm(object client)
         {
-            TcpClient tcpClient = (TcpClient)client;
-            NetworkStream clientStream = tcpClient.GetStream();
-            ASCIIEncoding encoder = new ASCIIEncoding();
+            var tcpClient = (TcpClient)client;
+            var clientStream = tcpClient.GetStream();
+            var encoder = new ASCIIEncoding();
+
             byte[] buffer = encoder.GetBytes("Connected");
             clientStream.Write(buffer, 0, buffer.Length);
             clientStream.Flush();
+
             byte[] message = new byte[4096];
             int bytesRead;
+
             while (true)
             {
 
@@ -71,8 +79,7 @@ namespace Servidor
             }
             tcpClient.Close();
         }
+
         #endregion
     }
 }
-
-

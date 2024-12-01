@@ -7,23 +7,28 @@ using System.Threading.Tasks;
 namespace Servidor.Logica
 {
     //Esta clase permite que se puedan mantener los datos correctamente en el programa
-    internal class Cla_Persistencia
+    public class Cla_Persistencia
     {
-        #region atributos
+        #region Atributos
+
         static Cls_mensaje Msg = new Cls_mensaje();
-        public static Cla_Persona[] PArray_Persona {  get; set; }
+        public static Cla_Persona[] PArray_Persona { get; set; }
         public int Indice_Persona { get; set; }
+
         #endregion
 
         #region Inicialización Array
-        public Cla_Persistencia() 
+
+        public Cla_Persistencia()
         {
             if (PArray_Persona == null)
                 PArray_Persona = new Cla_Persona[20];
         }
+
         #endregion
 
         #region Metodos
+
         public void Almacenar_Personas(Cla_Persona[] PMatriz)
         {
             //Se guarda en la matriz de la clase lo que tenga almacenado la matriz de personas en pantalla
@@ -42,6 +47,7 @@ namespace Servidor.Logica
                 Msg.mensaje(PArray_Persona[0].Nombre);
             }
         }
+
         #endregion
     }
 }
