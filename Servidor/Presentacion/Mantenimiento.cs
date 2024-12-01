@@ -14,6 +14,15 @@ namespace Servidor.Presentacion
     public partial class Mantenimiento : Form
     {
         #region Atributos
+
+        public Mantenimiento()
+        {
+            InitializeComponent();
+            cbxEstado.Items.Add("Activo");
+            cbxEstado.Items.Add("Inactivo");
+            cbxEstado.SelectedIndex = 0;
+        }
+
         Cls_mensaje Msg = new Cls_mensaje();
         static Cla_Persistencia obj_Persistencia = new Cla_Persistencia();
         static Cla_Persona[] Array_Persona = new Cla_Persona[20];
@@ -24,19 +33,12 @@ namespace Servidor.Presentacion
 
         #endregion
 
-        #region Constructor
-        public Mantenimiento()
-        {
-            InitializeComponent();
-            cbxEstado.SelectedIndex = 0;
-        }
-        #endregion
+        #region Botones
 
-        #region botones
         private void BTN_Salir_Click(object sender, EventArgs e)
         {
             obj_Persistencia.Almacenar_Personas(Array_Persona);
-            this.Close();
+            Close();
             MenuInicio menu = new MenuInicio();
             menu.Show();
         }
@@ -49,6 +51,7 @@ namespace Servidor.Presentacion
                     if (Grabar_Campos())
                     {
                         Msg.mensaje("Información guardada con exito");
+                        Limpiar();
                     }
                 }
                 else
@@ -79,7 +82,8 @@ namespace Servidor.Presentacion
         }
         #endregion
 
-        #region metodos
+        #region Metodos
+
         private void Limpiar()
         {
             txtCedula.Clear();
@@ -87,40 +91,62 @@ namespace Servidor.Presentacion
             txtNombre.Clear();
             txtNumMesa.Clear();
         }
+
         private void cargar_informacion()
         {
             txtCedula.Text = Array_Persona[Indice_Busqueda].cedula.ToString();
             txtNombre.Text = Array_Persona[Indice_Busqueda].Nombre;
-            if (Array_Persona[Indice_Busqueda].Estado)
-            {
-                cbxEstado.SelectedIndex = 0;
-            }
-            else
-            {
-                cbxEstado.SelectedIndex = 1;
-            }
             txtNumMesa.Text = Array_Persona[Indice_Busqueda].Num_Mesa.ToString();
             txtCentro.Text = Array_Persona[Indice_Busqueda].Dsc_Mesa;
+            cbxEstado.Text = Array_Persona[Indice_Busqueda].Estado == true ? "Activo" : "Inactivo";
         }
 
         private bool Validar_Campos()
         {
-            if (!string.IsNullOrEmpty(txtNombre.Text) && !string.IsNullOrEmpty(txtNumMesa.Text) && !string.IsNullOrEmpty(txtCentro.Text) && cbxEstado.SelectedIndex == 0)
+            if (string.IsNullOrEmpty(txtCedula.Text))
             {
-                return true;
-            }
-            else
-            {
+                Msg.mensaje("Debe de digitar un número de cedula");
+                txtCedula.Select();
                 return false;
             }
+
+            if (string.IsNullOrEmpty(txtNombre.Text))
+            {
+                Msg.mensaje("Debe de digitar un nombre");
+                txtNombre.Select();
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(txtNumMesa.Text))
+            {
+                Msg.mensaje("Debe de digitar un número de mesa");
+                txtNumMesa.Select();
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(txtCentro.Text))
+            {
+                Msg.mensaje("Debe de digitar un centro de votación");
+                txtCentro.Select();
+                return false;
+            }
+
+            if (cbxEstado.SelectedIndex == -1)
+            {
+                Msg.mensaje("Debe de seleccionar un estado");
+                cbxEstado.Select();
+                return false;
+            }
+
+            return true;
         }
 
         private bool Validar_Cedula()
         {
-            if (txtCedula.TextLength != 9)
+            if (txtCedula.TextLength < 9)
             {
                 Msg.mensaje("Debe de digitar un número de cedula válido [999999999]");
-                txtCedula.SelectAll();
+                txtCedula.Focus();
                 return false;
             }
             else
@@ -164,23 +190,23 @@ namespace Servidor.Presentacion
                 Array_Persona[Indice_Persona] = new Cla_Persona();
                 Array_Persona[Indice_Persona].cedula = Convert.ToInt32(txtCedula.Text);
                 Array_Persona[Indice_Persona].Nombre = txtNombre.Text;
+
                 if (cbxEstado.SelectedIndex == 0)
-                {
                     Array_Persona[Indice_Persona].Estado = true;
-                }
                 else
-                {
                     Array_Persona[Indice_Persona].Estado = false;
-                }
+
                 Array_Persona[Indice_Persona].Num_Mesa = int.Parse(txtNumMesa.Text);
                 Array_Persona[Indice_Persona].Dsc_Mesa = txtCentro.Text;
+
                 Obtener_Indice();
+                Indice_Persona++;
                 return true;
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Msg.mensaje("Error al grabar el registro: " + ex.Message.ToString());
-                return false; 
+                return false;
             }
         }
 
@@ -200,11 +226,11 @@ namespace Servidor.Presentacion
         }
         #endregion
 
-        #region eventos
+        #region Eventos
 
         private void Mantenimiento_Load(object sender, EventArgs e)
         {
-            txtCedula.Select();
+            txtCedula.Focus();
             BTN_Eliminar.Enabled = false;
         }
 
@@ -215,8 +241,8 @@ namespace Servidor.Presentacion
                 Validar_Cedula();
             }
         }
-        #endregion
 
+        #endregion
 
     }
 }

@@ -11,30 +11,35 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Net;
 
-
 namespace Cliente
 {
 
     public partial class Frm_Cliente : Form
     {
+        public Frm_Cliente() => InitializeComponent();
+
+        private void Frm_Cliente_Load(object sender, EventArgs e) { }
+
+        #region Attributes
+
         TcpClient client = new TcpClient();
         ASCIIEncoding encoder = new ASCIIEncoding();
-        NetworkStream stream = null;
+        NetworkStream stream;
+        IPEndPoint endPoint;
         byte[] buffer;
-        string message = "";
+        byte[] message;
+        int bytesRead;
 
+        #endregion
 
-        public Frm_Cliente()
-        {
-            InitializeComponent();
-        }
+        #region Buttons
 
         private void Btn_Conectar_Click(object sender, EventArgs e)
         {
             Btn_Conectar.Enabled = false;
 
 
-            if (Txt_Servidor.Text == "")
+            if (Txt_Servidor.Text == string.Empty)
             {
                 MessageBox.Show("Por favor ingrese una dirección IP para el servidor", "Error al conectar", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
@@ -45,15 +50,15 @@ namespace Cliente
                     try
                     {
                         client = new TcpClient();
-                        IPEndPoint serverEndPoint = new IPEndPoint(IPAddress.Parse(Txt_Servidor.Text), 30000);
-                        client.Connect(serverEndPoint);
-                        NetworkStream clientStream = client.GetStream();
+                        endPoint = new IPEndPoint(IPAddress.Parse(Txt_Servidor.Text), 30000);
+                        client.Connect(endPoint);
+                        stream = client.GetStream();
                         buffer = encoder.GetBytes("Hello Server!");
-                        clientStream.Write(buffer, 0, buffer.Length);
-                        clientStream.Flush();
+                        stream.Write(buffer, 0, buffer.Length);
+                        stream.Flush();
 
-                        byte[] message2 = new byte[4096];
-                        int bytesRead = clientStream.Read(message2, 0, 4096);
+                        message = new byte[4096];
+                        bytesRead = stream.Read(message, 0, 4096);
 
                         MessageBox.Show("Conexión Realizada con Exito");
 
@@ -98,22 +103,20 @@ namespace Cliente
 
         private void Bnt_Enviar_Click(object sender, EventArgs e)
         {
-            NetworkStream clientStream = client.GetStream();
+            stream = client.GetStream();
             buffer = encoder.GetBytes(Txt_Mensaje.Text.Trim());
-            clientStream.Write(buffer, 0, buffer.Length);
-            clientStream.Flush();
+            stream.Write(buffer, 0, buffer.Length);
+            stream.Flush();
 
 
-            byte[] message2 = new byte[4096];
-            int bytesRead = clientStream.Read(message2, 0, 4096);
+            message = new byte[4096];
+            bytesRead = stream.Read(message, 0, 4096);
 
-            encoder.GetString(message2, 0, bytesRead);
-            Txt_Mensaje.Text = encoder.GetString(message2, 0, bytesRead).ToString();
+            encoder.GetString(message, 0, bytesRead);
+            Txt_Mensaje.Text = encoder.GetString(message, 0, bytesRead).ToString();
         }
 
-        private void Frm_Cliente_Load(object sender, EventArgs e)
-        {
+        #endregion
 
-        }
     }
 }

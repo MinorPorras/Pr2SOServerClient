@@ -13,50 +13,51 @@ namespace Servidor.Presentacion
 {
     public partial class MenuInicio : Form
     {
-        #region atributos
+        public MenuInicio() => InitializeComponent();
+
+        #region Atributos
+
         Cls_mensaje obj_util = new Cls_mensaje();
         static Cla_Persona Obj_Persona;
         static Cla_Persona[] array_Persona;
+
         #endregion
 
-        public MenuInicio()
-        {
-            InitializeComponent();
-        }
+        #region Botones
 
-        #region botones
         private void BTN_SocketCom_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            SocketCom socket = new SocketCom();
+            Hide();
+            var socket = new SocketCom();
             socket.Show();
         }
 
         private void BTN_Mantenimiento_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Mantenimiento mantenimiento = new Mantenimiento();
+            Hide();
+            var mantenimiento = new Mantenimiento();
             mantenimiento.Show();
         }
         #endregion
 
-        #region eventos
+        #region Eventos
+
         private void MenuInicio_Load(object sender, EventArgs e)
         {
 
         }
-        #endregion
 
         private void MenuInicio_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == 27)
             {
-                if(obj_util.Salir() == 1)
+                if (obj_util.Salir() == 1)
                 {
                     Dispose();
                 }
             }
-            else if (e.KeyChar == 49){
+            else if (e.KeyChar == 49)
+            {
                 BTN_Mantenimiento.PerformClick();
             }
             else if (e.KeyChar == 50)
@@ -64,5 +65,7 @@ namespace Servidor.Presentacion
                 BTN_SocketCom.PerformClick();
             }
         }
+
+        #endregion
     }
 }
