@@ -31,3 +31,15 @@ C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.pdb
 C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.Presentacion.Mantenimiento.resources
 C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.Presentacion.MenuInicio.resources
 C:\Users\Usuario\source\repos\Servidor\obj\Debug\Servidor.SocketCom.resources
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\bin\Debug\Servidor.exe.config
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\bin\Debug\Servidor.exe
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\bin\Debug\Servidor.pdb
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\obj\Debug\Servidor.csproj.AssemblyReference.cache
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\obj\Debug\Servidor.Presentacion.Mantenimiento.resources
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\obj\Debug\Servidor.Presentacion.MenuInicio.resources
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\obj\Debug\Servidor.SocketCom.resources
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\obj\Debug\Servidor.Properties.Resources.resources
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\obj\Debug\Servidor.csproj.GenerateResource.cache
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\obj\Debug\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\obj\Debug\Servidor.exe
+C:\Users\Usuario\Source\Repos\Pr2SOServerClient\Servidor\obj\Debug\Servidor.pdb

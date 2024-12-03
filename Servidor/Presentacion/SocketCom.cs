@@ -130,7 +130,7 @@ namespace Servidor
                     byte[] buffer = new byte[4096];
 
                     buffer = encoder.GetBytes(Opcion);
-                    Invoke(new Action(() => Txt_Mensajes.Text += "Respuesta: " + Opcion + "\r\n"));
+                    Invoke(new Action(() => Txt_Mensajes.Text += Opcion + "\r\n"));
                     clientStream.Write(buffer, 0, buffer.Length);
                     clientStream.Flush();
                 }
@@ -154,7 +154,7 @@ namespace Servidor
             }
             try
             {
-                if (Peticion != "Hello Server!")
+                if (Peticion != "\nHello Server!")
                 {
                     int cedula = int.Parse(Peticion.Substring(1, 9));
                     Indice_APersona = Validar_Cedula(cedula);
@@ -177,9 +177,13 @@ namespace Servidor
                         return "3Persona no registrada";
                     }
                 }
+                else if (string.IsNullOrEmpty(Peticion))
+                {
+                    return "5Petición vacía";
+                }
                 else
                 {
-                    return "";
+                    return "0Conexión Iniciada";
                 }
 
             }
