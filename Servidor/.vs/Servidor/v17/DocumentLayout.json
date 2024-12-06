@@ -7,24 +7,28 @@
       "RelativeMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|solutionrelative:presentacion\\socketcom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\presentacion\\socketcom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|c:\\users\\usuario\\source\\repos\\pr2soserverclient\\servidor\\presentacion\\socketcom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|solutionrelative:presentacion\\socketcom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\presentacion\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|c:\\users\\usuario\\source\\repos\\pr2soserverclient\\servidor\\presentacion\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|solutionrelative:presentacion\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|c:\\users\\usuario\\source\\repos\\pr2soserverclient\\servidor\\presentacion\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|solutionrelative:presentacion\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\presentacion\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|solutionrelative:presentacion\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|c:\\users\\usuario\\source\\repos\\pr2soserverclient\\servidor\\logica\\cla_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|solutionrelative:logica\\cla_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\logica\\cla_persistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|c:\\users\\usuario\\source\\repos\\pr2soserverclient\\servidor\\logica\\cla_persistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|solutionrelative:logica\\cla_persistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\presentacion\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|solutionrelative:presentacion\\menuinicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|c:\\users\\usuario\\source\\repos\\pr2soserverclient\\servidor\\logica\\cla_servidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FBBB3E4-BFF4-4182-95CF-BAC95BF2C1A3}|Servidor.csproj|solutionrelative:logica\\cla_servidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,65 +78,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cla_Persistencia.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Logica\\Cla_Persistencia.cs",
-              "RelativeDocumentMoniker": "Logica\\Cla_Persistencia.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Logica\\Cla_Persistencia.cs",
-              "RelativeToolTip": "Logica\\Cla_Persistencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T03:40:22.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MenuInicio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\MenuInicio.cs",
-              "RelativeDocumentMoniker": "Presentacion\\MenuInicio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\MenuInicio.cs",
-              "RelativeToolTip": "Presentacion\\MenuInicio.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAIA2wC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T03:37:59.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuInicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\MenuInicio.cs",
-              "RelativeDocumentMoniker": "Presentacion\\MenuInicio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\MenuInicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\MenuInicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T03:37:58.17Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mantenimiento.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\Mantenimiento.cs",
-              "RelativeDocumentMoniker": "Presentacion\\Mantenimiento.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\Mantenimiento.cs",
-              "RelativeToolTip": "Presentacion\\Mantenimiento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T02:28:25.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SocketCom.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\SocketCom.cs",
               "RelativeDocumentMoniker": "Presentacion\\SocketCom.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\SocketCom.cs",
               "RelativeToolTip": "Presentacion\\SocketCom.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAASwJoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewL8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T02:25:23.808Z",
+              "WhenOpened": "2024-12-06T03:11:48.092Z",
               "EditorCaption": ""
             },
             {
@@ -144,8 +98,72 @@
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\SocketCom.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\SocketCom.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T02:25:22.222Z",
+              "WhenOpened": "2024-12-06T03:11:42.569Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mantenimiento.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\Mantenimiento.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Mantenimiento.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\Mantenimiento.cs",
+              "RelativeToolTip": "Presentacion\\Mantenimiento.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAADgv6gAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:00:37.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mantenimiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\Mantenimiento.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Mantenimiento.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Presentacion\\Mantenimiento.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Mantenimiento.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:00:30.959Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cla_Persistencia.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Logica\\Cla_Persistencia.cs",
+              "RelativeDocumentMoniker": "Logica\\Cla_Persistencia.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Logica\\Cla_Persistencia.cs",
+              "RelativeToolTip": "Logica\\Cla_Persistencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:53:58.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cla_Servidor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Logica\\Cla_Servidor.cs",
+              "RelativeDocumentMoniker": "Logica\\Cla_Servidor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Logica\\Cla_Servidor.cs",
+              "RelativeToolTip": "Logica\\Cla_Servidor.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowE8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:50:31.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cla_Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Logica\\Cla_Persona.cs",
+              "RelativeDocumentMoniker": "Logica\\Cla_Persona.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Servidor\\Logica\\Cla_Persona.cs",
+              "RelativeToolTip": "Logica\\Cla_Persona.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:48:37.282Z",
+              "EditorCaption": ""
             }
           ]
         }

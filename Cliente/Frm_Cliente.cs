@@ -73,8 +73,6 @@ namespace Cliente
                     try
                     {
                         client.Close();
-
-
                     }
                     catch (Exception Exc)
                     {
