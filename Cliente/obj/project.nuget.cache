@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rmFXPImvTq0=",
+  "dgSpecHash": "bOkn9Vq4Cxo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Source\\Repos\\Pr2SOServerClient\\Cliente\\Cliente.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\kvele\\Downloads\\ClientServerSocket\\Cliente\\Cliente.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kvele\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\kvele\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\kvele\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\kvele\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }
