@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7421FD95-2772-4128-9433-42C399E6D9A6}|Cliente.csproj|solutionrelative:frm_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7421FD95-2772-4128-9433-42C399E6D9A6}|Cliente.csproj|c:\\users\\usuario\\source\\repos\\pr2soserverclient\\cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7421FD95-2772-4128-9433-42C399E6D9A6}|Cliente.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7421FD95-2772-4128-9433-42C399E6D9A6}|Cliente.csproj|C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Cliente\\frm_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7421FD95-2772-4128-9433-42C399E6D9A6}|Cliente.csproj|solutionrelative:frm_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,28 +62,40 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Cliente\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Cliente\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:51:10.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Frm_Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Cliente\\Frm_Cliente.cs",
               "RelativeDocumentMoniker": "Frm_Cliente.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Cliente\\Frm_Cliente.cs",
               "RelativeToolTip": "Frm_Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T02:52:26.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Frm_Cliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Cliente\\Frm_Cliente.cs",
               "RelativeDocumentMoniker": "Frm_Cliente.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Pr2SOServerClient\\Cliente\\Frm_Cliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "Frm_Cliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T02:50:11.759Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-03T02:50:11.759Z"
             }
           ]
         }
